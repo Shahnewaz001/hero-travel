@@ -76,7 +76,7 @@ gap: 24px;
 background: rgba(244, 239, 239, 0.3);
    /* border: 1px solid blue; */
 }
-.input-items-icons{
+.icons{
     background: #FF5400;
     width: 150px;
 height:30px;
@@ -91,4 +91,9 @@ height:30px;
 border-radius: 10px;
 border: 0;
 color: rgba(19, 19, 24, 0.50);
+}
+.fa-solid{
+position: relative;
+right: 10%;
+top: 10%;
 }
