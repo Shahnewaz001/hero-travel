@@ -42,4 +42,21 @@
         top: -20%;
         right: -20%;
     }
+    .main-banner{
+        flex-direction: column;
+        padding: 10px;
+    }
+    .banner-text{
+        width: 100%;
+    }
+    .banner-img{
+        width: 100%;
+        display: flex;
+        justify-content:flex-start;
+    }
+    .place-img, .item1 img{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
 }
