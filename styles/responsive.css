@@ -6,6 +6,19 @@
         padding: 0;
         overflow-x: hidden;
     }
+    .logo-container{
+        width: 100%;
+    }
+   
+    .text-bar {
+       width: 10%;
+    }
+    .text-bar i{
+        display: contents;
+    }
+    .text-bar li{
+        display: none;
+    }
     .banner-title{
         padding-top: 30px;
     }
@@ -51,6 +64,7 @@
     }
     .banner-img{
         width: 100%;
+        height: 100%;
         display: flex;
         justify-content:flex-start;
     }
@@ -58,5 +72,32 @@
         display: flex;
         flex-direction: column;
         gap: 10px;
+    }
+    .service-quality{
+        flex-direction: column;
+    }
+    .service-banner1,.service-banner2{
+        width: 100%;
+    }
+    .login{
+        flex-direction: column;
+        position: relative;
+    }
+    .login-text {
+        display: flex;
+        /* justify-content: center; */
+        align-items: center;
+        width: 100%;
+        /* height: 100%; */
+    }
+    .login-banner img{
+        /* height: 100%; */
+    }
+    .login-text p{
+        width: 400px;
+    }
+    .discount{
+       position: absolute;
+       bottom: 10%;
     }
 }
