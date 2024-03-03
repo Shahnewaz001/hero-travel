@@ -100,4 +100,10 @@
        position: absolute;
        bottom: 10%;
     }
+    .own-section{
+        flex-direction: column;
+    }
+    .destination{
+        width: 100%;
+    }
 }

@@ -299,6 +299,16 @@ border-radius: 10px;
     left: 60%;
     bottom: 25%;
 }
+.own-section{
+    max-width: 1200px;
+    margin: 30px auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.destination{
+    width: 50%;
+}
 footer{
     width: auto;
     margin-top: 20px;
